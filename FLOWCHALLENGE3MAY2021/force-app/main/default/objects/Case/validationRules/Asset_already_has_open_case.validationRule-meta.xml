@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_already_has_open_case</fullName>
+    <active>true</active>
+    <errorConditionFormula>DupeCasePreventer__c</errorConditionFormula>
+    <errorMessage>Please update or close the open case appropriately. (CASE-01)</errorMessage>
+</ValidationRule>
